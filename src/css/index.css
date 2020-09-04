@@ -1,0 +1,70 @@
+body {
+  background: #eee;
+  margin: 20px 0;
+  font-family: "宋体";
+}
+article {
+  width: 21cm;
+  height: 29.7cm;
+  background: white;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 1rem;
+}
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+h2 {
+  margin: 10px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+h3 {
+  /* color: #; */
+  font-size: 18px;
+  font-weight: bold;
+}
+strong {
+  color: #f60;
+  font-weight: bold;
+}
+.bio p {
+  height: 20px;
+  color: #666;
+  margin: 5px 0;
+  line-height: 20px;
+}
+
+#skillsWrap {
+  width: 450px;
+  height: 270px;
+}
+.skills {
+  margin-bottom: 5px;
+}
+.skills > .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.skills > .wrapper > :first-child {
+  /* margin-right: 24px; */
+}
+.skills > .wrapper > ul > li {
+  line-height: 1.5rem;
+  margin-bottom: 8px;
+}
+.projects > ul > li,
+.openSource > ul > li {
+  margin-bottom: 24px;
+}
+.projects > ul > li > header,
+.openSource > ul > li > header {
+  display: flex;
+  justify-content: space-between;
+}
+.projects > ul > li > p,
+.openSource > ul > li > p {
+  margin: 0.5rem 0;
+}
